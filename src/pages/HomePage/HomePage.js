@@ -16,10 +16,14 @@ export default class HomePage extends Component {
         if(this.maintenance){
             return (
                 <React.Fragment>
-                    <div class="landing-background">
+                    <div class="landing-background overflow-no">
                     <div class="main-content">
-                          <img class="polaride-logo element" src="images/Polaride.png" alt=""></img>
-                          <p class="warning">¡Página en mantenimiento,disculpa las molestias!</p>
+                        <img class="polaride-logo element" src="images/Polaride.png" alt=""></img>
+                        <p class="warning">¡Página en mantenimiento, disculpa las molestias!</p>
+                        <div>
+                            <a class="rrss-logo-instagram" href="https://www.instagram.com/polaridefilm/" ><img class="rrss-logo-instagram" src="images/Logo Instagram.png" alt=""></img></a>
+                            <a class="rrss-logo-linkedin" href="https://www.linkedin.com/in/paula-correa/" ><img class="rrss-logo-linkedin" src="images/LogoLinkedin.png" alt=""></img></a>
+                        </div>   
                       </div>
                     </div>
                 </React.Fragment>
