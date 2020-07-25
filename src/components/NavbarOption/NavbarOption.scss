@@ -1,0 +1,220 @@
+.nav-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    min-height: 22px;
+    overflow: hidden;
+  }
+  
+  .nav-option:first-child {
+    display:flex;
+    align-items: flex-start;
+    width: 19%;
+  }
+  
+  .nav-option:last-child {
+    display:flex;
+    align-items: flex-end;
+  }
+
+  .the-hard-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .marker {
+    height: 2px;
+    background-color: white;
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .pseudo-marker{
+    height: 2px;
+    background-color: rgba(5,5,5,0);
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .option {
+    text-align: center;
+    font-family: "Palanquin", sans-serif; 
+    overflow: hidden;
+    letter-spacing: 4px;
+    margin-right: -4px;
+    padding-top: 0.75vh;
+  }
+  
+  .option:hover {
+    cursor:pointer;  
+    font-family: "Palanquin Dark", sans-serif; 
+  }
+
+  .secondary{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .secondary:hover{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+  }
+
+  .dynamic {
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+  
+    -webkit-animation: dynamo 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: dynamo 0.5s; /* Firefox < 16 */
+    -ms-animation: dynamo 0.5s; /* Internet Explorer */
+    -o-animation: dynamo 0.5s; /* Opera < 12.1 */
+    animation: dynamo 0.5s;
+  }
+  
+  @keyframes dynamo {
+    from {
+      width: 0%
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes dynamo {
+    from {
+      width: 0%
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes dynamo {
+    from {
+      width: 0%
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes dynamo {
+    from {
+      width: 0%
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes dynamo {
+    from {
+      width: 0%
+    }
+    to {
+      width: 90%
+    }
+  }
+  
+  .out {
+    height: 2px;
+    background-color: white;
+    border-radius: 5px;
+    width: 0%;
+  
+    -webkit-animation: out 0.5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: out 0.5s; /* Firefox < 16 */
+    -ms-animation: out 0.5s; /* Internet Explorer */
+    -o-animation: out 0.5s; /* Opera < 12.1 */
+    animation: out 0.5s;
+  }
+  
+  @keyframes out {
+  from{
+    width: 80%
+  }
+  to{
+    width: 0px;
+  }
+  }
+  
+  /* Firefox < 16 */
+  @-moz-keyframes out {
+  from{
+    width: 80%
+  }
+  to{
+    width: 0px;
+  }
+  }
+  
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes out {
+  from{
+    width: 80%
+  }
+  to{
+    width: 0px;
+  }
+  }
+  
+  /* Internet Explorer */
+  @-ms-keyframes out {
+  from{
+    width: 80%
+  }
+  to{
+    width: 0px;
+  }
+  }
+  
+  /* Opera < 12.1 */
+  @-o-keyframes out {
+  from{
+    width: 80%
+  }
+  to{
+    width: 0px;
+  }
+  }
+
+  .chosen{
+    font-weight: 700;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    .nav-bar{
+      display: none;
+    }
+
+    .on-top{
+      display:flex;
+    }
+  
+    .polaride-head{
+      height: 100%;
+      width:90%;
+      min-width: min-content;
+    }
+
+  .secondary{
+    font-size: 12px;
+  }
+  .option{
+    letter-spacing: 3px;
+    margin-right: -2px;
+  } 
+  }

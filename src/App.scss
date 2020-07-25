@@ -1,0 +1,442 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: "Cutive Mono", monospace;
+  overflow-x: hidden;
+  color: white;
+  font-weight: 20;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a{
+  text-decoration: none;
+  overflow: hidden;
+}
+
+p{
+  overflow:hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222222; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #FFFFFF; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/*******************************************************************/
+html, body{
+  background-color: #222222;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .bgimg-1{
+    width:100vw;
+    min-height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .main-content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    top: 0;
+    left: 0;
+    width:80vw;
+    animation: none;
+  }
+
+  .polaride-logo{
+    position:relative;
+    width:80vw;
+  }
+
+  .nav-bar{
+    display: none;
+  }
+
+  .bgimg-2, .bgimg-3, .bg-film{
+    max-height:200px;
+    min-height:200px;
+    overflow:hidden;
+  }
+
+  .title-img{
+    height: 40px;
+  }
+
+  .photo-land{
+    margin: 0px 10px;
+  }
+
+  .contact-land{
+    height: 60px;
+  }
+
+  .opacity-div{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.15;
+  }
+
+  .all-logos{
+    min-width: 80px;
+  }
+
+  p{
+    font-size: 12px;
+  }
+
+  .copyright > p {
+    font-size: 10px;
+  }
+  .on-top{
+    display:flex;
+  }
+
+  .polaride-head{
+    height: 100%;
+    width:90%;
+    min-width: min-content;
+  }
+  .photo{
+    max-height:200px;
+    min-height:200px;
+    margin-bottom: 5vh;
+  }
+  .div-secondary{
+    max-height:200px;
+    min-height:200px;
+  }
+
+  .photo-container{
+    width:100vw;
+    height: min-content;
+    flex-direction: column;
+    
+  }
+
+  .first{
+    max-height: min-content;
+    max-width: 90vw;
+  }
+
+  .asia-cerca{
+    display:none;
+  }
+
+  .asia-lejos{
+    position:relative;
+    left:0;
+    max-width:60%;
+  }
+
+  .asiatica{
+    margin-bottom: 5vh;
+    max-width:60%;
+  }
+  
+  .top-model{
+    margin-bottom: 5vh;
+    max-width:60%;
+  }
+  
+  .gangsta{
+
+    max-width:60%;
+  }
+
+  .photo-container-2{
+    height: min-content;
+    width:100vw;
+    height: min-content;
+    flex-direction: column;
+    margin-bottom: 5vh;
+  }
+
+  .manu-vias{
+    position:relative;
+    left:0;
+    max-width:60%;
+    margin-bottom: 5vh;;
+  }
+
+  .manu-cerca{
+    position:relative;
+    left:0;
+    max-width:80%;
+  }
+
+  .boda-izq{
+    position:relative;
+    left:0;
+    max-width:60%;
+    margin-bottom: 5vh;;
+  }
+
+  .boda-der{
+    position:relative;
+    left:0;
+    max-width:60%;
+ 
+  }
+
+  .video{
+      max-height:200px;
+      min-height:200px;
+      margin-bottom: 5vh;
+  }
+
+  .video-container{
+    height:min-content;
+    padding: 0px;
+    margin-bottom: 5vh;
+    overflow:hidden;
+  }
+
+  iframe{
+    max-height: 200px;
+    min-height: 200px;
+    width: 90%;
+  }
+
+  .cover{
+    max-height:200px;
+    min-height:200px;
+    width: 90%;
+    overflow:hidden;
+  }
+
+  .contact{
+    max-height:200px;
+    min-height:200px;
+    margin-bottom: 5vh;
+}
+
+.form-container{
+  height: min-content;
+  overflow: hidden;
+}
+
+.smartphone{ 
+  display:flex;
+
+}
+
+.mobile-text{
+  display:flex;
+  letter-spacing: 5px;
+  font-family: "Palanquin", sans-serif; 
+  font-weight: 700;
+}
+
+.secondary{
+  font-size: 12px;
+}
+.option{
+  letter-spacing: 3px;
+  margin-right: -2px;
+}
+
+.no-pc{
+  display:none;
+}
+.bgimg-2{
+  border-top: 4px solid white;
+  
+}
+
+.bgimg-2, .bgimg-3{
+  position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-attachment: inherit;
+}
+
+.new-class{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-attachment: inherit;
+}
+
+.footer{
+  height: 10vh;
+}
+
+.contact-mobile-info{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-mobile{
+  font-size: 16px;
+  margin-bottom: 3vh;
+}
+
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-logos a{
+  margin: 0px 10px;
+}
+.no-margin{
+  margin:0;
+}
+
+.video, .bg-film{
+  background-image: url("");
+}
+
+}
