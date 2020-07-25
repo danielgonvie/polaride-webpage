@@ -1,9 +1,10 @@
 .nav-option {
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 25%;
+    width: fit-content;
     position: relative;
     font-family: 'Work Sans', sans-serif;
     min-height: 22px;

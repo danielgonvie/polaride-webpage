@@ -1,11 +1,12 @@
   .page-header{
     width: 100vw;
-    height: 20vh;
+    height: min-content;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
     min-height: 100px;
+    background-color: #222222;
   }
 
   .polaride-head{
@@ -50,17 +51,19 @@
   }
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .nav-bar{
       display: none;
+      
     }
 
     .on-top{
       display:flex;
+      width: 100%;
     }
   
     .polaride-head{
-      height: 100%;
+      height: min-content;
       width:90%;
       min-width: min-content;
     }
