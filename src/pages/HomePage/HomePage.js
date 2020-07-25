@@ -9,7 +9,7 @@ export default class HomePage extends Component {
     constructor(props) {
         super(props);
         this.title = "/";
-        this.maintenance=false;
+        this.maintenance=true;
       }
 
     render() {
