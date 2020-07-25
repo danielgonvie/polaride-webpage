@@ -179,3 +179,48 @@
       letter-spacing: normal;
       font-size: 18px;
   }
+
+  .smartphone{
+    display:none;
+    }
+
+  @media only screen and (max-width: 815px) {
+    .pc{
+        display:none;
+    }
+
+    .landing-maintenance{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height:100%;
+
+    }
+
+    .bg-polaride-maintenance{
+        display: flex;
+        width: 90%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        background-color: #292929;
+        min-height: 80px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    
+      .bg-polaride-maintenance > img{
+        width: 90%;
+        padding: 10px 0;
+        z-index: 5;
+      }
+      .emergency-logos{
+          display:flex;
+          flex-direction:row;
+          width:50%;
+          justify-content: space-around;
+          margin-top: 20px;
+      }
+  }
