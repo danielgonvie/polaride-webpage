@@ -1,0 +1,59 @@
+.footer {
+    background-color: #222222;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .centered-footer {
+    width: 100%;
+    display: flex;
+    background-color: #292929;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+  }
+
+  .all-logos {
+    display: flex;
+    min-width: calc(102px + 2vw);
+  }
+
+  .rrss-logo-instagram {
+    min-width: 34px;
+    max-width: 1.75vw;
+    margin-right: 1vw;
+    min-height: 34px;
+  }
+  
+  .rrss-logo-linkedin {
+    min-width: 34px;
+    max-width: 1.75vw;
+    min-height: 34px;
+  }
+
+  .based-in {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 4vh;
+  }
+
+  .copyright{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+  }
+  
+  .copyright > p {
+    font-size: 12px;
+  }
