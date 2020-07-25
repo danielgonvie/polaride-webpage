@@ -57,3 +57,27 @@
   .copyright > p {
     font-size: 12px;
   }
+
+  @media only screen and (max-width: 500px) {
+    .pc{
+        display:none;
+    }
+
+    .footer{
+      height: 10vh;
+    }
+
+  }
+
+  
+  @media only screen and (max-width: 815px) {
+    .pc{
+        display:none;
+    }
+
+    .footer{
+      padding-top:10px;
+      height: 10vh;
+    }
+
+  }

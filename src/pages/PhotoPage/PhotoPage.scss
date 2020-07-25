@@ -1,0 +1,226 @@
+.photo {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../HomePage/portada-photo.JPG");
+    max-height: 40vh;
+    min-height: 40vh;
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    overflow: hidden;
+    margin-bottom: 15vh;
+  }
+
+
+
+
+  .div-secondary{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.15;
+    z-index: 3;
+  }
+
+  .photo-img{
+    height: 13vh;
+  }
+
+  .photo-container{
+    height:100vh;
+    width:100vw;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    min-height: min-content;
+  }
+
+  .photo-container-2{
+    height:120vh;
+    width:100vw;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    min-height: min-content;
+  }
+
+  .photo-container img{
+    pointer-events: none;
+}
+
+.marco{
+    border: 0.3vw solid white;
+  }
+
+  .first{
+    max-height: 80%;
+    max-width: 57vw;
+  }
+
+  .asia-cerca{
+    position:absolute;
+    max-height: 60%;
+    max-width: 28vw;
+    z-index: 4;
+    left: 22%;
+  }
+  
+  .asia-lejos{
+    position:absolute;
+    max-height: 80%;
+    max-width: 25vw;
+    left: 50%;
+  }
+
+  .asiatica{
+    max-height: 80%;
+    max-width: 24vw;
+  }
+  
+  .top-model{
+    max-height: 80%;
+    max-width: 24vw;
+  margin: 0 3vw;
+  }
+  
+  .gangsta{
+  max-height: 80%;
+  max-width: 24vw;
+  }
+  
+  .manu-vias{
+    max-height: 65%;
+    max-width: 26vw;
+    position:absolute;
+    top: 0;
+    left: 23%;
+    z-index: 4;
+  }
+  
+  .manu-cerca{
+    max-height: 45%;
+    max-width: 26vw;
+    position:absolute;
+    left:46%;
+    top: 30%;
+  }
+  
+  .boda-izq{
+    position:absolute;
+    max-height: 70%;
+    max-width:35vw;
+    left: 20%;
+    top: 0%;
+  }
+  
+  .boda-der{
+    position:absolute;
+    max-height: 60%;
+    max-width:23vw;
+    left:52%;
+    top: 30%;
+  }
+
+
+  @media only screen and (max-width: 815px) {
+
+    .title-img{
+        height: 40px;
+      }
+
+      .new-class{
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-attachment: inherit;
+      }
+
+      .photo{
+        max-height:200px;
+        min-height:200px;
+        margin-bottom: 5vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: inherit;
+    }
+
+    .photo-container{
+        width:100vw;
+        height: min-content;
+        flex-direction: column;
+        
+      }
+
+      .photo-container-2{
+        height: min-content;
+        width:100vw;
+        height: min-content;
+        flex-direction: column;
+        margin-bottom: 5vh;
+      }
+
+      .first{
+        max-height: min-content;
+        max-width: 90vw;
+      }
+
+      .asia-cerca{
+        display:none;
+      }
+    
+      .asia-lejos{
+        position:relative;
+        left:0;
+        max-width:60%;
+      }
+
+      
+  .asiatica{
+    margin-bottom: 5vh;
+    max-width:60%;
+  }
+  
+  .top-model{
+    margin-bottom: 5vh;
+    max-width:60%;
+  }
+  
+  .gangsta{
+
+    max-width:60%;
+  }
+
+  .manu-cerca{
+    position:relative;
+    left:0;
+    max-width:80%;
+  }
+
+  .boda-izq{
+    position:relative;
+    left:0;
+    max-width:60%;
+    margin-bottom: 5vh;;
+  }
+
+  .boda-der{
+    position:relative;
+    left:0;
+    max-width:60%;
+ 
+  }
+  }

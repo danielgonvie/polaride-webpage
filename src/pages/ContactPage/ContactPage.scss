@@ -1,0 +1,189 @@
+.contact {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../HomePage/portada-contact.JPG");
+    max-height: 40vh;
+    min-height: 40vh;
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    overflow: hidden;
+    margin-bottom: 15vh;
+  }
+
+  .div-secondary{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.15;
+    z-index: 3;
+  }
+
+  .contact-img{
+    height: 13vh;
+  }
+
+  .form-container{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    max-height: 40vh;
+    min-height: 40vh;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 4vh;
+  }
+
+  .all-logos {
+    display: flex;
+    min-width: calc(102px + 2vw);
+  }
+
+  .contact-form{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    width: 80%;
+    max-width: 850px;
+  }
+
+  .form-field{
+    font-family: "Palanquin", sans-serif; 
+    width:100%;
+  }
+
+  input{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:white;
+    font-family: "Palanquin", sans-serif; 
+    padding:5px;
+  }
+  
+  input:focus{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    border-bottom: 2px solid white;
+    
+  }
+  
+  input::placeholder, textarea::placeholder{
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 3px;
+  }
+  
+  textarea{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    border-bottom: 2px solid white;
+    resize: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color:white;
+    font-family: "Palanquin", sans-serif; 
+    padding:5px;
+  }
+  
+  textarea:focus{
+    outline:none;
+    border-bottom: 2px solid white;
+  }
+
+
+  @media only screen and (max-width: 500px) {
+
+
+        
+  }
+  
+  @media only screen and (max-width: 815px) {
+    .contact-land{
+        height: 60px;
+      }
+    
+
+      .contact{
+        max-height:200px;
+        min-height:200px;
+        margin-bottom: 5vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-attachment: inherit;
+    }
+
+    .smartphone{
+        display:flex;
+    }
+
+    .all-logos{
+        min-width: 80px;
+      }
+
+    .form-container{
+        height: min-content;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .all-logos a{
+        margin: 0px 10px;
+      }
+
+      .contact-mobile-info{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;;
+      }
+
+      .text-mobile{
+        font-size: 16px;
+        margin-bottom: 3vh;
+      }
+
+      .rrss-logo-instagram {
+        min-width: 34px;
+        max-width: 1.75vw;
+        margin-right: 1vw;
+        min-height: 34px;
+      }
+      
+      .rrss-logo-linkedin {
+        min-width: 34px;
+        max-width: 1.75vw;
+        min-height: 34px;
+      }
+
+      .pc{
+          display:none;
+      }
+    
+  }
