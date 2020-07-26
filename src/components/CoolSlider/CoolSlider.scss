@@ -26,3 +26,26 @@
 .marco{
   border: 0.3vw solid white;
 }
+
+@media only screen and (max-width: 815px) {
+
+  .cool-item{
+    width: min-content;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+
+
+  .cool-div{
+    max-width: 100%;
+    height: 90vh;
+    padding: 10px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  }
+}

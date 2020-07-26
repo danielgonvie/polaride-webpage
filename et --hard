@@ -1,0 +1,68 @@
+[1mdiff --git a/src/pages/HomePage/HomePage.js b/src/pages/HomePage/HomePage.js[m
+[1mindex 2a2e4d9..c2cfba8 100644[m
+[1m--- a/src/pages/HomePage/HomePage.js[m
+[1m+++ b/src/pages/HomePage/HomePage.js[m
+[36m@@ -9,7 +9,7 @@[m [mexport default class HomePage extends Component {[m
+     constructor(props) {[m
+         super(props);[m
+         this.title = "/";[m
+[31m-        this.maintenance=true;[m
+[32m+[m[32m        this.maintenance=false;[m
+       }[m
+ [m
+     render() {[m
+[1mdiff --git a/src/pages/PhotoPage/PhotoPage.scss b/src/pages/PhotoPage/PhotoPage.scss[m
+[1mindex 7770e3b..ed6ef56 100644[m
+[1m--- a/src/pages/PhotoPage/PhotoPage.scss[m
+[1m+++ b/src/pages/PhotoPage/PhotoPage.scss[m
+[36m@@ -131,7 +131,16 @@[m
+     left:52%;[m
+     top: 30%;[m
+   }[m
+[31m-  .lol{[m
+[32m+[m
+[32m+[m
+[32m+[m[32m  .hidden{[m
+[32m+[m[32m    display: none;[m
+[32m+[m[32m  }[m
+[32m+[m[41m  [m
+[32m+[m[41m  [m
+[32m+[m[32m  @media only screen and (max-width: 500px) {[m
+[32m+[m
+[32m+[m[32m    .lol{[m
+       height: 50vh;[m
+       width: 100vw;[m
+     margin:0;[m
+[36m@@ -162,10 +171,7 @@[m
+     margin: 20px;[m
+   }[m
+ [m
+[31m-  .hidden{[m
+[31m-    display: none;[m
+   }[m
+[31m-  [m
+ [m
+   @media only screen and (max-width: 815px) {[m
+ [m
+[36m@@ -173,6 +179,21 @@[m
+         height: 40px;[m
+       }[m
+ [m
+[32m+[m[32m      .lol{[m
+[32m+[m[32m        height: 100vh;[m
+[32m+[m[32m        width: 100vw;[m
+[32m+[m[32m      margin:0;[m
+[32m+[m[32m    }[m
+[32m+[m[41m  [m
+[32m+[m[32m    .cool-item{[m
+[32m+[m[32m      width: 80vw;[m
+[32m+[m[32m      height: 90vh;[m
+[32m+[m[32m      display: flex;[m
+[32m+[m[32m      justify-content: center;[m
+[32m+[m[32m      align-items: center;[m
+[32m+[m[32m      margin: 20px;[m
+[32m+[m[32m    }[m
+[32m+[m[41m  [m
+       .new-class{[m
+         position: relative;[m
+         background-position: center;[m
