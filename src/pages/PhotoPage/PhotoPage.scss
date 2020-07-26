@@ -55,7 +55,7 @@
     min-height: min-content;
   }
 
-  .photo-container img{
+  img{
     pointer-events: none;
 }
 
@@ -162,6 +162,11 @@
     margin: 20px;
   }
 
+  .hidden{
+    display: none;
+  }
+  
+
   @media only screen and (max-width: 815px) {
 
     .title-img{
@@ -252,4 +257,5 @@
     max-width:60%;
  
   }
+
   }
