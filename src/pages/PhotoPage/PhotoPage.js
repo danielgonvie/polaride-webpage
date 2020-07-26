@@ -8,6 +8,8 @@ import 'react-multi-carousel/lib/styles.css';
 import CoolSlider from "../../components/CoolSlider/CoolSlider";
 import FotoZoom from "../../components/FotoZoom/FotoZoom";
 
+import { CustomLeftArrow, CustomRightArrow } from "./CustomArrows";
+
 export default class PhotoPage extends Component {
 
   constructor(props) {
@@ -63,6 +65,8 @@ export default class PhotoPage extends Component {
                   centerMode
                   className="lol"
                   containerClass="container"
+                  customLeftArrow={<CustomLeftArrow />}
+                  customRightArrow={<CustomRightArrow />}
                   dotListClass=""
                   draggable
                   focusOnSelect={false}
