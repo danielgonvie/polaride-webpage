@@ -9,7 +9,7 @@ export default class HomePage extends Component {
     constructor(props) {
         super(props);
         this.title = "/";
-        this.maintenance=true;
+        this.maintenance=false;
       }
 
     render() {
@@ -70,11 +70,13 @@ export default class HomePage extends Component {
                       </Link>
                       <Link to="video">
                       <div className="landing-video">
+                        <video className="background-video pc" poster="./pantin02.jpg" loop autoPlay playsInline muted preload="auto" src="images/VideoPantin.mp4">
+				            <source type="video/mp4" src="images/VideoPantin.mp4"></source>
+			            </video>
+
                           <div className="opacity-div"></div>
-                          <img className="title-img video-land" src="images/Films.png" alt=""></img>
-                          {/* <video loop="loop" autoplay="" playsinline="" muted="" width="1694" height="848" id="mejs_7790883889244904_html5" preload="none" src="https://danielcarboneras.com/wp-content/uploads/2020/01/335-FINAL-WEB_ConPuntos.mp4" style="margin: 0px; width: 1995.29px; height: 848px;">
-				            <source type="video/mp4" src=""></source>
-			              </video> */}
+                          <img className="title-img video-land" src="images/Films.png" alt="" style={{position: "absolute", zIndex: "2"}}></img>
+                            
                       </div>
                       </Link>
                       <Link to="contact">

@@ -1,3 +1,4 @@
+
   .page-header{
     width: 100vw;
     height: min-content;
@@ -8,6 +9,12 @@
     min-height: 100px;
     background-color: #222222;
     padding-bottom:2vh;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
   }
 
   .polaride-head{

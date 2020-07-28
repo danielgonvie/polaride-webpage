@@ -124,16 +124,13 @@
 }
 
 .landing-video{
-    background-image: url("./pantin02.jpg");
+    
     position: relative;
     min-height: 70vh;
     overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     border-bottom: 4px solid white;
 }
 
@@ -151,6 +148,14 @@
     justify-content: center;
     align-items: center;
     border-bottom: 4px solid white;
+  }
+
+  .background-video{
+    position: absolute;
+    width:100%;
+    
+    top: 0;
+    z-index: 1;
   }
 
 .opacity-div {
@@ -238,8 +243,16 @@
 
       .title-img{
         height: 40px;
+        z-index: 2s;
       }
     
+      .video-land{
+        z-index: 2;
+      }
+      .landing-video > img{
+        z-index: 2;
+      }
+
       .photo-land{
         margin: 0px 10px;
       }
