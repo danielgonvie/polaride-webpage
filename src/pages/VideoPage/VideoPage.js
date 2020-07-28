@@ -17,7 +17,7 @@ export default class VideoPage extends Component {
               <Navbar title={this.title}></Navbar>
               <div className="contact new-class">
                 <div className="div-secondary"></div>
-                <img className="title-img contact-img contact-land" src="images/Films.png" alt=""></img>
+                <img className="title-img video-img video-land" src="images/Films.png" alt=""></img>
               </div>
               <VideoComponent title="valle" media="https://www.youtube.com/embed/q-Z0F21K4Kg" image="images/PolarideVideo2.jpg"></VideoComponent>
               <VideoComponent title="sombra" media="https://www.youtube.com/embed/VXeoRtnwYf0" image="images/PolarideVideo.jpg"></VideoComponent>
