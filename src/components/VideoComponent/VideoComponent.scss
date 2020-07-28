@@ -4,7 +4,7 @@
   align-items: center;
   width: 100vw;
   height: 60vh;
-  padding: 5vh;
+  padding: 5vh 0vh;
   position: relative;
 }
 
@@ -15,8 +15,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:51.5%;
-  height:86%;
+  width:85%;
+  height:100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,9 +59,36 @@ iframe{
 
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 815px) {
   .video-container{
     height:min-content;
+    padding: 0px;
+    margin-bottom: 5vh;
+    overflow:hidden;
+  }
+
+  .cover{
+    height:35vh;
+    min-height: 350px;
+    width: 90%;
+    overflow:hidden;
+  }
+
+  iframe{
+    height:35vh;
+    min-height: 350px;
+    width: 100%;
+  }
+
+  .real-cover{
+    width:100%;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .video-container{
+    height:200px;
     padding: 0px;
     margin-bottom: 5vh;
     overflow:hidden;
@@ -77,11 +104,13 @@ iframe{
   iframe{
     max-height: 200px;
     min-height: 200px;
-    width: 90%;
+    width: 100%;
   }
 
   .real-cover{
     width:auto;
+    height:100%;
+    
   }
 
 }

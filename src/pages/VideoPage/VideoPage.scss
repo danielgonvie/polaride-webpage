@@ -1,3 +1,20 @@
 .video-img, .video-land {
     height: 13vh;
+    position:absolute;
+    z-index: 20;
+}
+
+
+.background-video-landing {
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .video-img, .video-land {
+        max-height: 40px;
+    }
 }

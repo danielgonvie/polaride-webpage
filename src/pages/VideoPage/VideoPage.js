@@ -18,6 +18,9 @@ export default class VideoPage extends Component {
               <div className="contact new-class">
                 <div className="div-secondary"></div>
                 <img className="title-img video-img video-land" src="images/Films.png" alt=""></img>
+                <video className="background-video-landing pc" poster="./pantin02.jpg" loop autoPlay playsInline muted preload="auto" src="images/VideoPantin.mp4">
+				            <source type="video/mp4" src="images/VideoPantin.mp4"></source>
+			            </video>
               </div>
               <VideoComponent title="valle" media="https://www.youtube.com/embed/q-Z0F21K4Kg" image="images/PolarideVideo2.jpg"></VideoComponent>
               <VideoComponent title="sombra" media="https://www.youtube.com/embed/VXeoRtnwYf0" image="images/PolarideVideo.jpg"></VideoComponent>
