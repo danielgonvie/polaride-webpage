@@ -12,9 +12,48 @@
     z-index: 1;
 }
 
+.video-main {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../HomePage/pantin02.jpg");
+    max-height: 40vh;
+    min-height: 40vh;
+    /* opacity: 0.85; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    overflow: hidden;
+    margin-bottom: 15vh;
+  }
+
+
+  @media only screen and (max-width: 815px) {
+
+    .video-main{
+        max-height:200px;
+        min-height:200px;
+        margin-bottom: 5vh;
+        position: relative;
+        background-position: 75% 25%;
+        background-repeat: no-repeat;
+       
+        background-attachment: inherit;
+    }
+  }
+
 
 @media only screen and (max-width: 500px) {
-    .video-img, .video-land {
+    .video-land {
         max-height: 40px;
     }
 }
+
+
+
+
+

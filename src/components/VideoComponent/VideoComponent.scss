@@ -15,7 +15,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width:85%;
+  width:54%;
   height:100%;
   display: flex;
   justify-content: center;
@@ -55,6 +55,15 @@ iframe{
 
 .hidden{
   display:none;
+}
+
+@media only screen and (max-width: 1025px) {
+  .cover{
+    height:60vh;
+    min-height: 350px;
+    width: 80%;
+    overflow:hidden;
+  }
 }
 
 

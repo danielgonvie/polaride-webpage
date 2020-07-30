@@ -15,7 +15,7 @@ export default class VideoPage extends Component {
         return (
           <React.Fragment>
               <Navbar title={this.title}></Navbar>
-              <div className="contact new-class">
+              <div className="video-main new-class">
                 <div className="div-secondary"></div>
                 <img className="title-img video-img video-land" src="images/Films.png" alt=""></img>
                 <video className="background-video-landing pc" poster="./pantin02.jpg" loop autoPlay playsInline muted preload="auto" src="images/VideoPantin.mp4">
