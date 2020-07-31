@@ -16,7 +16,7 @@ export default class ContactPage extends Component {
     this.fromName = "";
     this.contactMail = "";
 
-    emailjs.init("user_pcMUrWZ1tzKNcpN6qC3Ev");
+    emailjs.init(process.env.REACT_APP_USERAPI);
   }
 
   sendEmail = (e) => {
@@ -30,7 +30,7 @@ export default class ContactPage extends Component {
       messageBody: message
     }
     console.log(e.target, "lol");
-    emailjs.send('mailgun', 'template_7HlFOKVQ', templateParams, 'user_pcMUrWZ1tzKNcpN6qC3Ev')
+    emailjs.send('mailgun', process.env.REACT_APP_TEMPLATE, templateParams, process.env.REACT_APP_USERAPI)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
