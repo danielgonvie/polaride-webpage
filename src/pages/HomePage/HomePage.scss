@@ -15,9 +15,11 @@
 
 .polaride-logo {
   width: 21vw;
+  min-width:307px;
 }
 
 .nav-bar {
+  min-width:307px;
   display: flex;
   justify-content: space-between;
   width: 21vw;
@@ -40,6 +42,7 @@
   width: 30vw;
   left: 200px;
   top: 62vh;
+  min-width:307px;
 
   -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1.5s; /* Firefox < 16 */
