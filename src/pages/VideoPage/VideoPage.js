@@ -17,7 +17,7 @@ export default class VideoPage extends Component {
               <Navbar title={this.title}></Navbar>
               <div className="video-main new-class">
                 <div className="div-secondary"></div>
-                <img className="title-img video-img video-land" src="images/Films.png" alt=""></img>
+                <img className="title-img video-title" src="images/Films.png" alt=""></img>
                 <video className="background-video-landing pc" poster="./pantin02.jpg" loop autoPlay playsInline muted preload="auto" src="images/VideoPantin.mp4">
 				            <source type="video/mp4" src="images/VideoPantin.mp4"></source>
 			            </video>

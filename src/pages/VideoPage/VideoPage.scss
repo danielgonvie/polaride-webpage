@@ -1,4 +1,4 @@
-.video-img, .video-land {
+.video-title  {
     height: 13vh;
     position:absolute;
     z-index: 20;
@@ -33,7 +33,10 @@
 
 
   @media only screen and (max-width: 815px) {
-
+    .video-title {
+        height: 40px;
+    }
+    
     .video-main{
         max-height:200px;
         min-height:200px;
@@ -48,8 +51,8 @@
 
 
 @media only screen and (max-width: 500px) {
-    .video-land {
-        max-height: 40px;
+    .video-title {
+        height: 40px;
     }
 }
 
