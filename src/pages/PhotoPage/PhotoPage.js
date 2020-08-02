@@ -54,7 +54,7 @@ export default class PhotoPage extends Component {
               <Navbar title={this.title}></Navbar>
               <div className="photo new-class">
                 <div className="div-secondary"></div>
-                <img className="title-img photo-img" src="images/Photo.png" alt=""></img>
+                <img className="title-img photo-img" src="images/Photography.png" alt=""></img>
               </div>
               <FotoZoom show={this.state.show} img={this.state.image}></FotoZoom>
               <div className="carrousell smartphone">
@@ -82,16 +82,15 @@ export default class PhotoPage extends Component {
                   slidesToSlide={1}
                   swipeable
                 >
-                  <CoolSlider img="images/PolaridePhotoEdu-2.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoEdu-2.JPG")}></CoolSlider>
+                  <CoolSlider img="images/EduB10x16.JPG" zoom={ev => this.showZoomed("images/EduB10x16A.JPG")}></CoolSlider>
                   <CoolSlider img="images/PolaridePhotoKiu.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoKiu.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoKiu-2.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoKiu-2.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoEs-1.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoEs-1.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoEdu-1.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoEdu-1.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoMeur.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoMeur.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoMeur-1.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoMeur-1.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoOscar-5.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoOscar-5.JPG")}></CoolSlider>
+                  <CoolSlider img="images/Kiu10x16.JPG" zoom={ev => this.showZoomed("images/Kiu10x16.JPG")}></CoolSlider>
+                  <CoolSlider img="images/Edu10x16.JPG" zoom={ev => this.showZoomed("images/Edu10x16.JPG")}></CoolSlider>
+                  <CoolSlider img="images/Meur10x16.JPG" zoom={ev => this.showZoomed("images/Meur10x16.JPG")}></CoolSlider>
+                  <CoolSlider img="images/E10x16.JPG" zoom={ev => this.showZoomed("images/E10x16.JPG")}></CoolSlider>
+                  <CoolSlider img="images/Oscar10x16.JPG" zoom={ev => this.showZoomed("images/Oscar10x16A.JPG")}></CoolSlider>
                   <CoolSlider img="images/PolaridePhotoOscar-4.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoOscar-4.JPG")}></CoolSlider>
-                  <CoolSlider img="images/PolaridePhotoYoli.JPG" zoom={ev => this.showZoomed("images/PolaridePhotoYoli.JPG")}></CoolSlider>
+                  
                 </Carousel>
               </div>
               <div className="great-container pc">
