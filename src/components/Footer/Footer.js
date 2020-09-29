@@ -23,7 +23,7 @@ export default class Footer extends Component {
                             <p> Madrid & Galicia</p>
                         </div>
                         <div className="contact-info">
-                            <p>info@polaride.com</p>
+                            <p>paula@polaride.com</p>
                             <p>+34 662 093 346</p>
                         </div>
                     </div>
