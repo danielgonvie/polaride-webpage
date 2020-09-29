@@ -168,6 +168,22 @@ img{
 }
 
 
+.nomatch-body{
+  height: 50vh;
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nomatch-info{
+  font-size:30px;
+  height: fit-content;
+  overflow: hidden;
+  margin: 16px 0px;
+}
+
 
 
 

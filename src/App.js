@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import "./App.scss";
 
@@ -7,6 +7,8 @@ import HomePage from "./pages/HomePage/HomePage";
 import PhotoPage from "./pages/PhotoPage/PhotoPage";
 import VideoPage from "./pages/VideoPage/VideoPage";
 import ContactPage from "./pages/ContactPage/ContactPage";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 export default class App extends Component {
 
@@ -15,18 +17,14 @@ export default class App extends Component {
 
     const NoMatch = ({ location }) => (
       <div className="nomatch-component">
-        <img
-          className="no-gif"
-          src="https://media2.giphy.com/media/ly8G39g1ujpNm/giphy.gif?cid=790b761142e4c6ee9a3e38ce715d90695af72b14bdcd671f&rid=giphy.gif"
-          alt="404"
-        ></img>
-        <h3 className="nomatch-info">
-        No se encontró <code>{location.pathname}</code>
-        </h3>
-        <h3 className="nomatch-info">¿Estás perdido? Parece que sí</h3>
-        <Link className="safe-link" to="/">
-          <h3 className="nomatch-button">Sácame de aquí!</h3>
-        </Link>
+        <Navbar title=""></Navbar>
+        <div className="nomatch-body">
+          <h3 className="nomatch-info">
+          No se encontró <code>{location.pathname}</code>
+          </h3>
+          <h3 className="nomatch-info">La página a la que has intentado acceder no existe.</h3>
+        </div>
+        <Footer></Footer>
       </div>
     );
 
