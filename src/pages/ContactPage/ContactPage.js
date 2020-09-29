@@ -36,7 +36,7 @@ export default class ContactPage extends Component {
       contactMail: mail,
       messageBody: message
     }
-    console.log(e.target, "lol");
+
     emailjs.send('mailgun', process.env.REACT_APP_TEMPLATE, templateParams, process.env.REACT_APP_USERAPI)
       .then((result) => {
           console.log(result.text);
@@ -62,7 +62,7 @@ export default class ContactPage extends Component {
               <div className="form-container ">
                 <div className="contact-mobile-info smartphone">
                   <div className="contact-info">
-                    <p className="text-mobile">info@polaride.com</p>
+                    <p className="text-mobile">paula@polaride.com</p>
                     <a href="tel:+34662093346"><p className="text-mobile">+34 662 093 346</p></a>
                   </div>
                   <div className="all-logos">
