@@ -16,7 +16,7 @@ export default class Footer extends Component {
                     <div className="centered-footer pc">
                         <div className="all-logos">
                             <a className="rrss-logo-instagram" href="https://www.instagram.com/polaridefilm/" ><img className="rrss-logo-instagram" src="images/Logo Instagram.png" alt=""></img></a>
-                            <a className="rrss-logo-linkedin" href="https://www.linkedin.com/in/paula-correa/" ><img className="rrss-logo-linkedin" src="images/LogoLinkedin.png" alt=""></img></a>
+                            <a className="rrss-logo-linkedin" href="https://www.linkedin.com/in/paulapolaride/" ><img className="rrss-logo-linkedin" src="images/LogoLinkedin.png" alt=""></img></a>
                         </div>
                         <div className="based-in">
                             <p>Based in</p>
